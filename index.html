@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>LAGOON2</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div id="info-box" class="alert alert-secondary">
+        Info desk
+    </div>
+    <form action="check.php" method="post">
+        <p>
+            <label for="first-name">First Name</label>
+            <input name="first-name" type="text">
+        </p>
+        <p>
+            <label for="second-name">Second Name</label>
+            <input name="second-name" type="text">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input name="email" type="email">
+        </p>
+        <p>
+            <label for="p0">Password</label>
+            <input name="p0" type="password">
+        </p>
+        <p>
+            <label for="p1">Re Password</label>
+            <input name="p1" type="password">
+        </p>
+        <div>
+            <input type="submit" class="btn btn-primary btn-lg">
+            <input type="reset" class="btn btn-secondary btn-lg">
+        </div>
+    </form>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
